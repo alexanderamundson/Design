@@ -1,0 +1,31 @@
+body {
+    margin: 0;
+    font-family: "Helvetica", sans-serif;
+    color: seashell;
+    background-color: black;
+    font-size: 22px;
+    width: 100%;
+    
+    
+    /*text-align: center;*/
+  }
+
+  /*-- Header --*/
+
+  header {
+      position: fixed;
+      height: 70px;
+      width: 100%;
+      border: 5px solid red;
+     
+  }
+    #title {
+        float: left;
+        font-family:  Helvetica, sans-serif;  
+    }
+  
+    nav {
+    color: gray;
+    font-size: 2em;
+    text-align: right;
+  }
