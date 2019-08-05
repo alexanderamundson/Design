@@ -1,31 +1,41 @@
+* {
+  font-size: 22px;
+  font-family: Arial, Helvetica, sans-serif;
+  width: 100%;
+}
+
 body {
-    margin: 0;
-    font-family: "Helvetica", sans-serif;
-    color: seashell;
-    background-color: black;
-    font-size: 22px;
-    width: 100%;
-    
-    
-    /*text-align: center;*/
-  }
+  height: 5000px;
+  background-color: aqua;
+}
 
-  /*-- Header --*/
 
-  header {
-      position: fixed;
-      height: 70px;
-      width: 100%;
-      border: 5px solid red;
-     
-  }
-    #title {
-        float: left;
-        font-family:  Helvetica, sans-serif;  
-    }
+/*   Header (fixed) */
+header {
+  position: fixed;
+  text-align: center;
+  height: 100px;
+  width: 100%;
+  border: 5px solid seagreen;
+}
+
+header h1 {
+  display: inline;
+  font-family: 'Franklin Gothic Medium', 'Lucida Sans', 'Lucida Sans Regular', sans-serif;
+  font-size: 2.4rem;
+  height: 100%;
+}
+
+header span {
+  color: darkblue;
+  font-family: fantasy;
+  font-weight: 700;
+  font-size: 1.8rem;
+  letter-spacing: 5px;
+  line-height: 3.0;
+  text-decoration: underline;
+  margin-left: 55px;
+  margin-right: 55px;
   
-    nav {
-    color: gray;
-    font-size: 2em;
-    text-align: right;
-  }
+}
+
