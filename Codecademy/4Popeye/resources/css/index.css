@@ -1,0 +1,81 @@
+*{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 15px;
+    color:darkslategray;
+}
+
+/*  Navbar */
+.navbar {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    background-color: white;
+
+}
+
+  .navbar li {
+      display: inline-block;
+      padding: 20px 20px;
+  }
+
+  .navbar a {
+      text-decoration: none;
+      color: darkcyan;
+  }
+ 
+
+
+/*<!-- Top Banner -->*/
+.banner {
+    color: white;
+    padding: 100px 0;
+    margin-top: 75px;
+    background-color: lightgreen;
+    text-align: center;
+}
+
+#Popeye {
+    height: 355px;
+    width:  300px;
+    filter: drop-shadow(4px 4px 2px black);
+}
+
+
+
+/*<!-- Section 2 -->*/
+.section2 {
+       padding: 20px 50px;
+}
+
+#header1 {
+    font-size: 2.0rem;
+}
+#ul {
+    list-style-type: square;
+}
+
+
+
+/*Page-wide classes*/
+#greets ul {
+    list-style-type: none;
+}
+
+.avatar {
+    background-image: url(../images/fccd68826047d01d955d7796e9513d16.jpg);
+    background-size: cover;
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    display: inline-block;
+    vertical-align: middle;
+}
+
+
+.bold {
+    font-weight: 900;
+}
+
+a.blue {
+    color: blue;
+}
