@@ -61,7 +61,14 @@
     color: white;
 }
 
+#submit-button-style:hover {
+    background: #2b54a7;
+}
 
+##submit-button-style:active {
+    background: #1d4698;
+    border-color: #1d4698;
+}
 #list {
     list-style-type: square;
 }
