@@ -40,6 +40,24 @@
     filter: drop-shadow(4px 4px 2px black);
 }
 
+/*  Banner Button */
+
+.banner-buttons {
+    background: #f6f7f9;
+    border: solid 3px #ced0d4;
+    color: #4b4f56;
+} 
+
+   .banner-buttons:hover {
+       background: #e9ebee;
+   }
+
+   .banner-buttons:active {
+       background: #d8dade;
+       background-color: #d8dade;
+   }
+
+
 
 
 /*<!-- Section 2 -->*/
@@ -51,6 +69,8 @@
     font-size: 2.0rem;
 }
 
+
+/*  Submit Tweet Button */
 #submit-button-style {
     cursor: pointer;
     font-weight: bold;
@@ -65,10 +85,12 @@
     background: #2b54a7;
 }
 
-##submit-button-style:active {
+#submit-button-style:active {
     background: #1d4698;
     border-color: #1d4698;
 }
+
+
 #list {
     list-style-type: square;
 }
