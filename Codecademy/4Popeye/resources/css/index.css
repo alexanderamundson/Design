@@ -40,7 +40,7 @@
     filter: drop-shadow(4px 4px 2px black);
 }
 
-/*  Banner Button */
+/*  Banner Buttons */
 
 .banner-buttons {
     background: #f6f7f9;
@@ -56,6 +56,59 @@
        background: #d8dade;
        background-color: #d8dade;
    }
+
+#banner-circle-button {
+    position: relative;
+    background: #ecd300l;
+    background: -webkit-radial-gradient( hsl(54, 100%, 40%), hsl(54, 100%, 40%));
+    background: -o-radial-gradient( hsl(54, 100%, 40%), hsl(54, 100%, 40%));
+    background: -moz-radial-gradient( hsl(54, 100%, 40%), hsl(54, 100%, 40%));
+    background: radial-gradient( hsl(54, 100%, 40%), hsl(54, 100%, 40%));
+    font-size: 0.8rem;
+    font-weight: 650;
+    text-shadow: 0 -1px 0 #c3af07;
+    color: white;
+    border: solid 1px hsl(54, 100%, 15%);
+    border-radius: 100%;
+    height: 120px;
+    width: 120px;
+
+    outline: none;
+    box-shadow: inset 0 1px 0 hsl(54, 100%, 20%),
+            0 2px 0 hsl(54, 100%, 18%),
+            0 3px 0 hsl(54, 100%, 16%),
+            0 4px 0 hsl(54, 100%, 14%),
+            0 5px 0 hsl(54, 100%, 12%),
+            0 6px 0 hsl(54, 100%, 10%),
+            0 7px 0 hsl(54, 100%, 8%),
+            0 8px 0 hsl(54, 100%, 6%);
+    
+}   
+#banner-circle-button:hover {
+    background: #ecd300; /* For browsers that do not support gradients */
+    background: -webkit-radial-gradient(hsl(54, 100%, 45%), hsl(54, 80%, 25%)); /* Safari 5.1 to 6.0 */
+    background: -o-radial-gradient(hsl(54, 100%, 45%), hsl(54, 80%, 25%)); /* For Opera 11.6 to 12.0 */
+    background: -moz-radial-gradient(hsl(54, 100%, 45%), hsl(54, 80%, 25%)); /* For Firefox 3.6 to 15 */
+    background: radial-gradient(hsl(54, 100%, 45%), hsl(54, 80%, 25%)); /* Standard syntax */
+  }
+ 
+  #banner-circle-button:active {
+    background: #ecd300; /* For browsers that do not support gradients */
+    background: -webkit-radial-gradient(hsl(54, 100%, 43%), hsl(54, 100%, 33%)); /* Safari 5.1 to 6.0 */
+    background: -o-radial-gradient(hsl(54, 100%, 43%), hsl(54, 100%, 33%)); /* For Opera 11.6 to 12.0 */
+    background: -moz-radial-gradient(hsl(54, 100%, 43%), hsl(54, 100%, 33%)); /* For Firefox 3.6 to 15 */
+    background: radial-gradient(hsl(54, 100%, 43%), hsl(54, 100%, 33%)); /* Standard syntax */
+ 
+    top: 2px;
+ 
+    box-shadow: inset 0 1px 0 hsl(54, 100%, 50%),
+                0 2px 0 hsl(54, 100%, 20%),
+                0 3px 0 hsl(54, 100%, 18%),
+                0 4px 0 hsl(54, 100%, 16%),
+                0 5px 0 hsl(54, 100%, 14%),
+                0 6px 0 hsl(54, 100%, 12%),
+                0 7px 0 hsl(54, 100%, 10%);
+  }
 
 
 
