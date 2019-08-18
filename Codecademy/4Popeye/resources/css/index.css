@@ -84,7 +84,7 @@
             0 8px 0 hsl(54, 100%, 6%);
     
 }   
-#banner-circle-button:hover {
+  #banner-circle-button:hover {
     background: #ecd300; /* For browsers that do not support gradients */
     background: -webkit-radial-gradient(hsl(54, 100%, 45%), hsl(54, 80%, 25%)); /* Safari 5.1 to 6.0 */
     background: -o-radial-gradient(hsl(54, 100%, 45%), hsl(54, 80%, 25%)); /* For Opera 11.6 to 12.0 */
