@@ -127,15 +127,20 @@
 #submit-button-style {
     cursor: pointer;
     font-weight: bold;
-    padding: 6px 12px;
+    padding: 4px 8px;
     box-shadow: inset 0 1px 0 0 #4d73bf;
-    background: #4267b2;
+    background: rgb(29, 6, 156);
     border:  solid 1px lightgreen;
-    color: white;
+    border-image: linear-gradient(to top right, rgb(255, 0, 0), rgb(72, 255, 0));
+    border-image-slice: 1;
+    color: #df0909;
+    outline: none;
+    -webkit-transition: all 0.3s ease;
+    transition: all 0.3s ease;
 }
 
 #submit-button-style:hover {
-    background: #2b54a7;
+    background: black;
 }
 
 #submit-button-style:active {
