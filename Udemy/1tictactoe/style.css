@@ -6,6 +6,7 @@
 table {
     margin: auto;
 }
+
 div td {
     width:   100px;
     height: 100px;
@@ -19,8 +20,6 @@ div td:hover {
     background: silver;
 }
 
-
-
 td {
     
     width: 100px;
@@ -30,6 +29,11 @@ td {
     font-family: Impact, Haettenschweiler, sans-serif;
 }
 
+footer {
+    font-size: 1.5em;
+    margin-top: 35px;
+    text-align: center;
+}
 .vertical {
     border-left: 2px solid black;
     border-right: 2px solid black;
