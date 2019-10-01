@@ -6,17 +6,16 @@ const t2cells = document.querySelectorAll("#table2 td");
  
 t1cells.forEach(element => { 
     element.addEventListener("click", function(){
-        element.style.border = "5px solid yellow";
+        //element.style.border = "5px solid yellow";
+        element.classList.add("yellow-border");
     });
-    
 });
 
 t2cells.forEach(element => { 
     element.addEventListener("click", function(){
         element.innerHTML = "X";
         element.style.fontSize = "4rem";
-    });
-    
+    }); 
 });
 
 table1.addEventListener("click", function(){

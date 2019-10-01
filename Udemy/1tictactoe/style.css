@@ -39,3 +39,7 @@ td {
     border-top: 2px solid black;
     border-bottom: 2px solid black;
 }
+
+.yellow-border {
+    border: 5px solid yellow;
+}
