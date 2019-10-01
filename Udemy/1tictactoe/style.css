@@ -1,6 +1,10 @@
 #table1 {
     margin-bottom: 20px;
 }
+
+table {
+    margin: auto;
+}
 div td {
     width:   100px;
     height: 100px;
