@@ -1,0 +1,36 @@
+#table1 {
+    margin-bottom: 20px;
+}
+div td {
+    width:   100px;
+    height: 100px;
+    background: teal;
+    font-size: 3rem;
+    font-family: 'Times New Roman', serif;
+    text-align: center;
+}    
+ 
+div td:hover {
+    background: silver;
+}
+
+
+
+td {
+    
+    width: 100px;
+    height: 100px;
+    text-align: center;
+    font-size: 3rem;
+    font-family: Impact, Haettenschweiler, sans-serif;
+}
+
+.vertical {
+    border-left: 2px solid black;
+    border-right: 2px solid black;
+}
+
+.horizontal {
+    border-top: 2px solid black;
+    border-bottom: 2px solid black;
+}
