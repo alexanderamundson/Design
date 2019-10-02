@@ -9,6 +9,9 @@ t1cells.forEach(element => {
         //element.style.border = "5px solid yellow";
         element.classList.add("yellow-border");
     });
+    element.addEventListener("mouseover", function(){
+        table2.style.background = "green";
+    });
 });
 
 t2cells.forEach(element => { 
@@ -22,6 +25,14 @@ table1.addEventListener("click", function(){
     table1.style.background = "red";
 });
 
+table1.addEventListener("mouseout", function(){
+    table2.style.background = "navy";
+});
+
 table2.addEventListener("mouseover", function(){
     table2.style.background = "silver";
+});
+
+table2.addEventListener("mouseout", function(){
+    this.style.background = "brown";
 });
