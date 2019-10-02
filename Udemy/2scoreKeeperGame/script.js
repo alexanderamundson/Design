@@ -12,11 +12,10 @@ let winningScore = 7;
 let gameOver = false;
 
 
-
 player1.addEventListener("click", function(){
     if (!gameOver) {
         p1Display.textContent = ++p1score;
-        if (p1score == winningScore) {
+        if (p1score === winningScore) {
             gameOver = true;
             p1Display.classList.add("winner");
         }
@@ -27,11 +26,10 @@ player1.addEventListener("click", function(){
 player2.addEventListener("click", function(){
     if (!gameOver) {
         p2Display.textContent = ++p2score;
-        if (p2score == winningScore) {
+        if (p2score === winningScore) {
             gameOver = true;
             p2Display.classList.add("winner");
         }
-
     }
 });
 
@@ -40,8 +38,9 @@ reset.addEventListener("click", function(){
 });
 
 inputNum.addEventListener("change", function(){
-    winScore.textContent = inputNum.value;
-    winningScore = inputNum.value;
+    winScore.textContent = this.value;
+    winningScore = Number(this.value);
+    resetScores();
 });
 
 
@@ -52,7 +51,5 @@ function resetScores() {
     p2Display.textContent = p2score;
     gameOver = false;
     p1Display.classList.remove("winner");
-    p2Display.classList.remove("winner");
-    
-    
+    p2Display.classList.remove("winner");   
 }
