@@ -1,0 +1,47 @@
+body {
+    font-family: 'Source Sans Pro';
+    max-width: 700px;
+    width: 80%;
+    margin: 20px auto;
+    border: 20px solid #bdc3c6;
+    padding: 20px;
+}
+
+h2 {
+    color: #2c3e50;
+    font-size: 2.0rem;
+}
+
+hr {
+    overflow: visible; /* For IE */
+    height: 30px;
+    border-style: solid;
+    border-color: black;
+    border-width: 1px 0 0 0;
+    border-radius: 20px;
+}
+hr:before { /* Not really supposed to work, but does */
+    display: block;
+    content: "";
+    height: 30px;
+    margin-top: -31px;
+    border-style: solid;
+    border-color: black;
+    border-width: 0 0 1px 0;
+    border-radius: 20px;
+}
+
+.date {
+    text-transform: uppercase;
+    letter-spacing: 0.2rem;
+    color: #3498db;
+}
+
+.post {
+    margin-bottom: 20px;
+}
+
+.quote {
+    border-left: 5px solid #bdc3c6;
+    padding-left: 5px;
+}
