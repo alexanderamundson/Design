@@ -5,6 +5,8 @@ const player1 = document.getElementById("Player1");
 const player2 = document.getElementById("Player2");
 const reset = document.getElementById("Reset");
 const inputNum = document.querySelector("input");
+const body = document.querySelector("body");
+const mouse = document.querySelector("div h3");
 
 let p1score =0;
 let p2score =0;
@@ -52,4 +54,13 @@ function resetScores() {
     gameOver = false;
     p1Display.classList.remove("winner");
     p2Display.classList.remove("winner");   
-}
+};
+
+function backgroundColor(e) {      
+    mouse.innerHTML = '<p>MouseX: '+e.offsetX+' </p><p>MouseY: '+e.offsetY+'</p>';
+    body.style.backgroundColor = "rgb("+e.offsetX+","+e.offsetY+",10)";
+};
+
+function resetBackground() {
+    body.style.backgroundColor = "white";
+};
