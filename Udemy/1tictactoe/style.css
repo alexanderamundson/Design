@@ -1,7 +1,3 @@
-#table1 {
-    margin-bottom: 20px;
-
-}
 
 table {
     margin: auto;
@@ -31,8 +27,37 @@ td {
 
 footer {
     font-size: 1.5em;
-    margin-top: 35px;
+    margin-top: 5px;
     text-align: center;
+}
+
+#table1 {
+    margin-bottom: 20px;
+
+}
+
+#animation-anchor:hover {
+    animation-name: expand;
+    animation-duration: 5s;
+}
+@keyframes expand {
+    0% {
+        color: red;
+        font-size: 2em;
+        border: 3px groove red;
+    }
+    50% {
+        color: yellowgreen;
+        font-size: 3.5em;
+    }
+    75% {
+        color: mediumslateblue;
+        font-size: 0.5em;
+    }
+    100% {
+        color: orange;
+        font-size: 1.2em;
+    }
 }
 .vertical {
     border-left: 2px solid black;
