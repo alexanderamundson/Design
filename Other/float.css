@@ -1,0 +1,31 @@
+* {
+    font-size: 18px;
+    /*border: 3px dashed green;*/
+}
+
+body {
+    border: 3px solid saddlebrown;
+    text-align: center;
+}
+
+p {
+    width: 50%;
+    text-align: center;
+}
+
+img.float-right {
+    float: right;
+    width:170px;
+    height:150px;
+    padding: 10px 0 10px 15px;
+    margin-left: 10px;
+    border-left: 1.5px solid black;
+}
+img.float-left {
+    float: left;
+    width:185px;
+    height:150px;
+    padding: 10px 15px 10px 0;
+    margin-right:10px;
+    border-right: 1.5px solid black;
+}
